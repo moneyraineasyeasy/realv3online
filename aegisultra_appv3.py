@@ -1297,7 +1297,7 @@ def candidate_dataframe(
                 )
             ),
             "市場變動": (
-                "{safe_float(
+                f"{safe_float(
                     shift.get(
                         'market_implied_probability_change_pp'
                     ),
